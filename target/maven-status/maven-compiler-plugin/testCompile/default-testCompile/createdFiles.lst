@@ -1,0 +1,4 @@
+stepDefinition\TicketBookStepDef.class
+runnerPackage\MyRunnerClassTest.class
+stepDefinition\LoginStepDef.class
+stepDefinition\UserRegistration.class
