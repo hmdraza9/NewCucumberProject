@@ -19,7 +19,7 @@ public class TestBase {
 	public static void openTktBookUrl(){
 		System.setProperty("webdriver.chrome.driver", "C:/Users/Abdul Hamid Raza/Documents/all-drivers/chromedriver.exe");
 		co = new ChromeOptions();
-		co.addArguments("--headless");
+//		co.addArguments("--headless");
 		co.addArguments("start-maximized");
 		co.addArguments("--disable-infobars");
 //		co.addArguments("--incognito");
