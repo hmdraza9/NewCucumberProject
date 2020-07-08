@@ -3,16 +3,16 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "DemoAuto login scenario",
+        "line": 12,
+        "name": "User registration at DemoAuto",
         "description": "",
-        "id": "demo-auto-login-feature;demoauto-login-scenario",
+        "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 15008207700,
+              "duration": 5324047700,
               "status": "passed"
             },
             "line": 5,
@@ -24,71 +24,205 @@
           },
           {
             "result": {
-              "duration": 961523700,
+              "duration": 968205200,
               "status": "passed"
             },
             "line": 6,
-            "name": "user verifies the title of the page",
+            "name": "user clicks on Register button",
             "match": {
-              "location": "LoginStepDef.userValidatesTitle()"
+              "location": "UserRegistration.clickOnRegisterDemoAut()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 32674717200,
+              "duration": 3304753500,
               "status": "passed"
             },
             "line": 7,
-            "name": "user enters username and password",
+            "name": "user fills form including \"test1@test.com\" and \"Test1@123\"",
             "match": {
-              "location": "LoginStepDef.userEntersCreds()"
+              "arguments": [
+                {
+                  "val": "test1@test.com",
+                  "offset": 27
+                },
+                {
+                  "val": "Test1@123",
+                  "offset": 48
+                }
+              ],
+              "location": "UserRegistration.userFillRegForm(String,String)"
             },
+            "matchedColumns": [
+              0,
+              1
+            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 16322245900,
+              "duration": 637474000,
               "status": "passed"
             },
             "line": 8,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "LoginStepDef.userClicksLoginButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1260883400,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user verifies the title of the home page",
-            "match": {
-              "location": "LoginStepDef.userValidatesHomePageTitle()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 659028100,
-              "status": "passed"
-            },
-            "line": 10,
             "name": "user quits the browser session",
             "match": {
               "location": "LoginStepDef.userQuitsBrowserSession()"
             },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "User registration at DemoAuto",
+        "description": "",
+        "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5162937100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDef.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1057306200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Register button",
+            "match": {
+              "location": "UserRegistration.clickOnRegisterDemoAut()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3158943200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills form including \"test2@test.com\" and \"Test2@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2@test.com",
+                  "offset": 27
+                },
+                {
+                  "val": "Test2@123",
+                  "offset": 48
+                }
+              ],
+              "location": "UserRegistration.userFillRegForm(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 627820200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user quits the browser session",
+            "match": {
+              "location": "LoginStepDef.userQuitsBrowserSession()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "User registration at DemoAuto",
+        "description": "",
+        "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5165554600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDef.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 929491300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Register button",
+            "match": {
+              "location": "UserRegistration.clickOnRegisterDemoAut()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3131838400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user fills form including \"test3@test.com\" and \"Test3@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test3@test.com",
+                  "offset": 27
+                },
+                {
+                  "val": "Test3@123",
+                  "offset": 48
+                }
+              ],
+              "location": "UserRegistration.userFillRegForm(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 691501300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user quits the browser session",
+            "match": {
+              "location": "LoginStepDef.userQuitsBrowserSession()"
+            },
+            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "Demo Auto login feature",
+    "name": "New users register for flight ticket booking",
     "description": "",
-    "id": "demo-auto-login-feature",
+    "id": "new-users-register-for-flight-ticket-booking",
     "keyword": "Feature",
-    "uri": "login.feature"
+    "uri": "userRegistration.feature"
   }
 ]

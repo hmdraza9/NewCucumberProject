@@ -14,6 +14,6 @@ import cucumber.api.junit.Cucumber;
 		dryRun=false
 		)
 
-public class MyRunnerClassTest {
+public class loginMyRunnerClassTest {
 
 }

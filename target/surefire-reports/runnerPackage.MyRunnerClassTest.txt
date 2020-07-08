@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: runnerPackage.MyRunnerClassTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 67.474 s - in runnerPackage.MyRunnerClassTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.789 s - in runnerPackage.MyRunnerClassTest
