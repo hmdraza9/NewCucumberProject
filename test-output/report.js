@@ -1,87 +1,22 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("userRegistration.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("login.feature");
 formatter.feature({
   "line": 1,
-  "name": "New users register for flight ticket booking",
+  "name": "Demo Auto login feature",
   "description": "",
-  "id": "new-users-register-for-flight-ticket-booking",
+  "id": "demo-auto-login-feature",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "line": 3,
-  "name": "User registration at DemoAuto",
-  "description": "",
-  "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto",
-  "type": "scenario_outline",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "line": 5,
-  "name": "user is on login page",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 6,
-  "name": "user clicks on Register button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 7,
-  "name": "user fills form including \"\u003cuserName\u003e\" and \"\u003cpassword\u003e\"",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "user quits the browser session",
-  "keyword": "And "
-});
-formatter.examples({
-  "line": 10,
-  "name": "",
-  "description": "",
-  "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;",
-  "rows": [
-    {
-      "cells": [
-        "userName",
-        "password"
-      ],
-      "line": 11,
-      "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;1"
-    },
-    {
-      "cells": [
-        "test1@test.com",
-        "Test1@123"
-      ],
-      "line": 12,
-      "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;2"
-    },
-    {
-      "cells": [
-        "test2@test.com",
-        "Test2@123"
-      ],
-      "line": 13,
-      "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;3"
-    },
-    {
-      "cells": [
-        "test3@test.com",
-        "Test3@123"
-      ],
-      "line": 14,
-      "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;4"
-    }
-  ],
-  "keyword": "Examples"
+formatter.before({
+  "duration": 237900,
+  "status": "passed"
 });
 formatter.scenario({
-  "line": 12,
-  "name": "User registration at DemoAuto",
+  "line": 3,
+  "name": "DemoAuto login scenario",
   "description": "",
-  "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;2",
+  "id": "demo-auto-login-feature;demoauto-login-scenario",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 5,
@@ -90,199 +25,513 @@ formatter.step({
 });
 formatter.step({
   "line": 6,
-  "name": "user clicks on Register button",
+  "name": "user verifies the title of the page",
   "keyword": "When "
 });
 formatter.step({
   "line": 7,
-  "name": "user fills form including \"test1@test.com\" and \"Test1@123\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
+  "name": "user enters username and password",
   "keyword": "Then "
 });
 formatter.step({
   "line": 8,
+  "name": "user clicks on login button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 9,
+  "name": "user verifies the title of the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 10,
   "name": "user quits the browser session",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "LoginStepDef.userOnLoginPage()"
 });
 formatter.result({
-  "duration": 5324047700,
+  "duration": 6133450300,
   "status": "passed"
 });
 formatter.match({
-  "location": "UserRegistration.clickOnRegisterDemoAut()"
+  "location": "LoginStepDef.userValidatesTitle()"
 });
 formatter.result({
-  "duration": 968205200,
+  "duration": 20394300,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "test1@test.com",
-      "offset": 27
-    },
-    {
-      "val": "Test1@123",
-      "offset": 48
-    }
-  ],
-  "location": "UserRegistration.userFillRegForm(String,String)"
+  "location": "LoginStepDef.userEntersCreds()"
 });
 formatter.result({
-  "duration": 3304753500,
+  "duration": 202657400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userClicksLoginButton()"
+});
+formatter.result({
+  "duration": 2682796300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userValidatesHomePageTitle()"
+});
+formatter.result({
+  "duration": 4771600,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDef.userQuitsBrowserSession()"
 });
 formatter.result({
-  "duration": 637474000,
+  "duration": 681097100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 128700,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 114200,
   "status": "passed"
 });
 formatter.scenario({
   "line": 13,
-  "name": "User registration at DemoAuto",
+  "name": "DemoAuto login scenario",
   "description": "",
-  "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;3",
+  "id": "demo-auto-login-feature;demoauto-login-scenario",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
+  "line": 15,
   "name": "user is on login page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
-  "name": "user clicks on Register button",
+  "line": 16,
+  "name": "user verifies the title of the page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
-  "name": "user fills form including \"test2@test.com\" and \"Test2@123\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
+  "line": 17,
+  "name": "user enters username and password",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 8,
+  "line": 18,
+  "name": "user clicks on login button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 19,
+  "name": "user verifies the title of the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 20,
   "name": "user quits the browser session",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "LoginStepDef.userOnLoginPage()"
 });
 formatter.result({
-  "duration": 5162937100,
+  "duration": 5237304400,
   "status": "passed"
 });
 formatter.match({
-  "location": "UserRegistration.clickOnRegisterDemoAut()"
+  "location": "LoginStepDef.userValidatesTitle()"
 });
 formatter.result({
-  "duration": 1057306200,
+  "duration": 5518000,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "test2@test.com",
-      "offset": 27
-    },
-    {
-      "val": "Test2@123",
-      "offset": 48
-    }
-  ],
-  "location": "UserRegistration.userFillRegForm(String,String)"
+  "location": "LoginStepDef.userEntersCreds()"
 });
 formatter.result({
-  "duration": 3158943200,
+  "duration": 190289000,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userClicksLoginButton()"
+});
+formatter.result({
+  "duration": 2733242300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userValidatesHomePageTitle()"
+});
+formatter.result({
+  "duration": 4075300,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDef.userQuitsBrowserSession()"
 });
 formatter.result({
-  "duration": 627820200,
+  "duration": 627687600,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 95400,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 117200,
   "status": "passed"
 });
 formatter.scenario({
-  "line": 14,
-  "name": "User registration at DemoAuto",
+  "line": 23,
+  "name": "DemoAuto login scenario",
   "description": "",
-  "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;4",
+  "id": "demo-auto-login-feature;demoauto-login-scenario",
   "type": "scenario",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
+  "line": 25,
   "name": "user is on login page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
-  "name": "user clicks on Register button",
+  "line": 26,
+  "name": "user verifies the title of the page",
   "keyword": "When "
 });
 formatter.step({
-  "line": 7,
-  "name": "user fills form including \"test3@test.com\" and \"Test3@123\"",
-  "matchedColumns": [
-    0,
-    1
-  ],
+  "line": 27,
+  "name": "user enters username and password",
   "keyword": "Then "
 });
 formatter.step({
-  "line": 8,
+  "line": 28,
+  "name": "user clicks on login button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 29,
+  "name": "user verifies the title of the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 30,
   "name": "user quits the browser session",
-  "keyword": "And "
+  "keyword": "Then "
 });
 formatter.match({
   "location": "LoginStepDef.userOnLoginPage()"
 });
 formatter.result({
-  "duration": 5165554600,
+  "duration": 5004640400,
   "status": "passed"
 });
 formatter.match({
-  "location": "UserRegistration.clickOnRegisterDemoAut()"
+  "location": "LoginStepDef.userValidatesTitle()"
 });
 formatter.result({
-  "duration": 929491300,
+  "duration": 8496300,
   "status": "passed"
 });
 formatter.match({
-  "arguments": [
-    {
-      "val": "test3@test.com",
-      "offset": 27
-    },
-    {
-      "val": "Test3@123",
-      "offset": 48
-    }
-  ],
-  "location": "UserRegistration.userFillRegForm(String,String)"
+  "location": "LoginStepDef.userEntersCreds()"
 });
 formatter.result({
-  "duration": 3131838400,
+  "duration": 223352500,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userClicksLoginButton()"
+});
+formatter.result({
+  "duration": 2705344100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userValidatesHomePageTitle()"
+});
+formatter.result({
+  "duration": 4988900,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDef.userQuitsBrowserSession()"
 });
 formatter.result({
-  "duration": 691501300,
+  "duration": 623555500,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 231500,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 246300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 33,
+  "name": "DemoAuto login scenario",
+  "description": "",
+  "id": "demo-auto-login-feature;demoauto-login-scenario",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 35,
+  "name": "user is on login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 36,
+  "name": "user verifies the title of the page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 37,
+  "name": "user enters username and password",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 38,
+  "name": "user clicks on login button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 39,
+  "name": "user verifies the title of the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 40,
+  "name": "user quits the browser session",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStepDef.userOnLoginPage()"
+});
+formatter.result({
+  "duration": 4982975400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userValidatesTitle()"
+});
+formatter.result({
+  "duration": 6428100,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userEntersCreds()"
+});
+formatter.result({
+  "duration": 191043400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userClicksLoginButton()"
+});
+formatter.result({
+  "duration": 2703599700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userValidatesHomePageTitle()"
+});
+formatter.result({
+  "duration": 6653300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userQuitsBrowserSession()"
+});
+formatter.result({
+  "duration": 636935100,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 56600,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 75300,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 43,
+  "name": "DemoAuto login scenario",
+  "description": "",
+  "id": "demo-auto-login-feature;demoauto-login-scenario",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 45,
+  "name": "user is on login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 46,
+  "name": "user verifies the title of the page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 47,
+  "name": "user enters username and password",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 48,
+  "name": "user clicks on login button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 49,
+  "name": "user verifies the title of the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 50,
+  "name": "user quits the browser session",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStepDef.userOnLoginPage()"
+});
+formatter.result({
+  "duration": 4860332900,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userValidatesTitle()"
+});
+formatter.result({
+  "duration": 5008600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userEntersCreds()"
+});
+formatter.result({
+  "duration": 201186400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userClicksLoginButton()"
+});
+formatter.result({
+  "duration": 2710891700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userValidatesHomePageTitle()"
+});
+formatter.result({
+  "duration": 3868600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userQuitsBrowserSession()"
+});
+formatter.result({
+  "duration": 626010800,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 116000,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 187800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 53,
+  "name": "DemoAuto login scenario",
+  "description": "",
+  "id": "demo-auto-login-feature;demoauto-login-scenario",
+  "type": "scenario",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "line": 55,
+  "name": "user is on login page",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 56,
+  "name": "user verifies the title of the page",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 57,
+  "name": "user enters username and password",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 58,
+  "name": "user clicks on login button",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 59,
+  "name": "user verifies the title of the home page",
+  "keyword": "Then "
+});
+formatter.step({
+  "line": 60,
+  "name": "user quits the browser session",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LoginStepDef.userOnLoginPage()"
+});
+formatter.result({
+  "duration": 5009957300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userValidatesTitle()"
+});
+formatter.result({
+  "duration": 10353600,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userEntersCreds()"
+});
+formatter.result({
+  "duration": 171479300,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userClicksLoginButton()"
+});
+formatter.result({
+  "duration": 2928191700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userValidatesHomePageTitle()"
+});
+formatter.result({
+  "duration": 4188400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "LoginStepDef.userQuitsBrowserSession()"
+});
+formatter.result({
+  "duration": 622375900,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 74600,
   "status": "passed"
 });
 });

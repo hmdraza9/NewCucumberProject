@@ -1,0 +1,526 @@
+# Created at 2020-07-09T07:49:13.256
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:830)
+
+
+# Created at 2020-07-09T07:49:14.195
+Unexpected IOException: 5,1,Scenario: DemoAuto login scenario,Given user is on login page(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:14.198
+Unexpected IOException: 6,1,Scenario: DemoAuto login scenario,Given user is on login page(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:14.207
+Unexpected IOException: 5,1,Scenario: DemoAuto login scenario,When user verifies the title of the page(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:14.208
+Unexpected IOException: 6,1,Scenario: DemoAuto login scenario,When user verifies the title of the page(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:14.368
+Unexpected IOException: 5,1,Scenario: DemoAuto login scenario,Then user enters username and password(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:14.368
+Unexpected IOException: 6,1,Scenario: DemoAuto login scenario,Then user enters username and password(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:14.863
+Unexpected IOException: 5,1,Scenario: DemoAuto login scenario,Then user clicks on login button(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:14.865
+Unexpected IOException: 6,1,Scenario: DemoAuto login scenario,Then user clicks on login button(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:18.873
+Unexpected IOException with stream: [
+
+# Created at 2020-07-09T07:49:18.876
+Unexpected IOException with stream: 1
+
+# Created at 2020-07-09T07:49:18.878
+Unexpected IOException with stream: 5
+
+# Created at 2020-07-09T07:49:18.880
+Unexpected IOException with stream: 9
+
+# Created at 2020-07-09T07:49:18.882
+Unexpected IOException with stream: 4
+
+# Created at 2020-07-09T07:49:18.884
+Unexpected IOException with stream: 2
+
+# Created at 2020-07-09T07:49:18.886
+Unexpected IOException with stream: 6
+
+# Created at 2020-07-09T07:49:18.888
+Unexpected IOException with stream: 1
+
+# Created at 2020-07-09T07:49:18.888
+Unexpected IOException with stream: 1
+
+# Created at 2020-07-09T07:49:18.888
+Unexpected IOException with stream: 5
+
+# Created at 2020-07-09T07:49:18.889
+Unexpected IOException with stream: 8
+
+# Created at 2020-07-09T07:49:18.889
+Unexpected IOException with stream: .
+
+# Created at 2020-07-09T07:49:18.890
+Unexpected IOException with stream: 8
+
+# Created at 2020-07-09T07:49:18.890
+Unexpected IOException with stream: 7
+
+# Created at 2020-07-09T07:49:18.891
+Unexpected IOException with stream: 1
+
+# Created at 2020-07-09T07:49:18.891
+Unexpected IOException with stream: ]
+
+# Created at 2020-07-09T07:49:18.891
+Unexpected IOException with stream: [
+
+# Created at 2020-07-09T07:49:18.892
+Unexpected IOException with stream: W
+
+# Created at 2020-07-09T07:49:18.892
+Unexpected IOException with stream: A
+
+# Created at 2020-07-09T07:49:18.893
+Unexpected IOException with stream: R
+
+# Created at 2020-07-09T07:49:18.893
+Unexpected IOException with stream: N
+
+# Created at 2020-07-09T07:49:18.893
+Unexpected IOException with stream: I
+
+# Created at 2020-07-09T07:49:18.894
+Unexpected IOException with stream: N
+
+# Created at 2020-07-09T07:49:18.894
+Unexpected IOException with stream: G
+
+# Created at 2020-07-09T07:49:18.895
+Unexpected IOException with stream: ]
+
+# Created at 2020-07-09T07:49:18.895
+Unexpected IOException with stream: :
+
+# Created at 2020-07-09T07:49:18.895
+Unexpected IOException with stream:  
+
+# Created at 2020-07-09T07:49:18.896
+Unexpected IOException with stream: T
+
+# Created at 2020-07-09T07:49:18.896
+Unexpected IOException with stream: i
+
+# Created at 2020-07-09T07:49:18.897
+Unexpected IOException with stream: m
+
+# Created at 2020-07-09T07:49:18.897
+Unexpected IOException with stream: e
+
+# Created at 2020-07-09T07:49:18.897
+Unexpected IOException with stream: d
+
+# Created at 2020-07-09T07:49:18.898
+Unexpected IOException with stream:  
+
+# Created at 2020-07-09T07:49:18.898
+Unexpected IOException with stream: o
+
+# Created at 2020-07-09T07:49:18.899
+Unexpected IOException with stream: u
+
+# Created at 2020-07-09T07:49:18.899
+Unexpected IOException with stream: t
+
+# Created at 2020-07-09T07:49:18.899
+Unexpected IOException with stream:  
+
+# Created at 2020-07-09T07:49:18.900
+Unexpected IOException with stream: c
+
+# Created at 2020-07-09T07:49:18.900
+Unexpected IOException with stream: o
+
+# Created at 2020-07-09T07:49:18.901
+Unexpected IOException with stream: n
+
+# Created at 2020-07-09T07:49:18.901
+Unexpected IOException with stream: n
+
+# Created at 2020-07-09T07:49:18.901
+Unexpected IOException with stream: e
+
+# Created at 2020-07-09T07:49:18.902
+Unexpected IOException with stream: c
+
+# Created at 2020-07-09T07:49:18.902
+Unexpected IOException with stream: t
+
+# Created at 2020-07-09T07:49:18.903
+Unexpected IOException with stream: i
+
+# Created at 2020-07-09T07:49:18.903
+Unexpected IOException with stream: n
+
+# Created at 2020-07-09T07:49:18.905
+Unexpected IOException with stream: g
+
+# Created at 2020-07-09T07:49:18.906
+Unexpected IOException with stream:  
+
+# Created at 2020-07-09T07:49:18.906
+Unexpected IOException with stream: t
+
+# Created at 2020-07-09T07:49:18.906
+Unexpected IOException with stream: o
+
+# Created at 2020-07-09T07:49:18.907
+Unexpected IOException with stream:  
+
+# Created at 2020-07-09T07:49:18.907
+Unexpected IOException with stream: C
+
+# Created at 2020-07-09T07:49:18.908
+Unexpected IOException with stream: h
+
+# Created at 2020-07-09T07:49:18.908
+Unexpected IOException with stream: r
+
+# Created at 2020-07-09T07:49:18.908
+Unexpected IOException with stream: o
+
+# Created at 2020-07-09T07:49:18.909
+Unexpected IOException with stream: m
+
+# Created at 2020-07-09T07:49:18.909
+Unexpected IOException with stream: e
+
+# Created at 2020-07-09T07:49:18.909
+Unexpected IOException with stream: ,
+
+# Created at 2020-07-09T07:49:18.910
+Unexpected IOException with stream:  
+
+# Created at 2020-07-09T07:49:18.910
+Unexpected IOException with stream: r
+
+# Created at 2020-07-09T07:49:18.910
+Unexpected IOException with stream: e
+
+# Created at 2020-07-09T07:49:18.911
+Unexpected IOException with stream: t
+
+# Created at 2020-07-09T07:49:18.911
+Unexpected IOException with stream: r
+
+# Created at 2020-07-09T07:49:18.912
+Unexpected IOException with stream: y
+
+# Created at 2020-07-09T07:49:18.912
+Unexpected IOException with stream: i
+
+# Created at 2020-07-09T07:49:18.912
+Unexpected IOException with stream: n
+
+# Created at 2020-07-09T07:49:18.913
+Unexpected IOException with stream: g
+
+# Created at 2020-07-09T07:49:18.913
+Unexpected IOException with stream: .
+
+# Created at 2020-07-09T07:49:18.914
+Unexpected IOException with stream: .
+
+# Created at 2020-07-09T07:49:18.914
+Unexpected IOException with stream: .
+
+# Created at 2020-07-09T07:49:18.914
+Unexpected IOException with stream: 
+
+# Created at 2020-07-09T07:49:18.915
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.003
+Unexpected IOException: 5,1,Scenario: DemoAuto login scenario,Then user verifies the title of the home page(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:27.010
+Unexpected IOException: 7,1,Scenario: DemoAuto login scenario,Then user verifies the title of the home page(Scenario: DemoAuto login scenario),null,chrome not reachable\000A  (Session info: chrome=83.0.4103.116)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'ABDUL-HAMID-MJK'\002C ip: '192.168.0.15'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.116\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005CABDULH~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:64700}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6c04698f5d34d424154c0f29a8d05c8,null,chrome not reachable\000A  (Session info: chrome=83.0.4103.116)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'ABDUL-HAMID-MJK'\002C ip: '192.168.0.15'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.116\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005CABDULH~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:64700}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6c04698f5d34d424154c0f29a8d05c8,chrome not reachable\000A  (Session info: chrome=83.0.4103.116)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'ABDUL-HAMID-MJK'\002C ip: '192.168.0.15'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.116\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005CABDULH~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:64700}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6c04698f5d34d424154c0f29a8d05c8,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=83.0.4103.116)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'ABDUL-HAMID-MJK'\002C ip: '192.168.0.15'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.116\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005CABDULH~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:64700}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6c04698f5d34d424154c0f29a8d05c8\000A
+
+
+# Created at 2020-07-09T07:49:27.012
+Unexpected IOException: 7,1,Scenario: DemoAuto login scenario,Scenario: DemoAuto login scenario,null,chrome not reachable\000A  (Session info: chrome=83.0.4103.116)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'ABDUL-HAMID-MJK'\002C ip: '192.168.0.15'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.116\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005CABDULH~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:64700}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6c04698f5d34d424154c0f29a8d05c8,null,chrome not reachable\000A  (Session info: chrome=83.0.4103.116)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'ABDUL-HAMID-MJK'\002C ip: '192.168.0.15'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.116\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005CABDULH~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:64700}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6c04698f5d34d424154c0f29a8d05c8,chrome not reachable\000A  (Session info: chrome=83.0.4103.116)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'ABDUL-HAMID-MJK'\002C ip: '192.168.0.15'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.116\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005CABDULH~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:64700}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6c04698f5d34d424154c0f29a8d05c8,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=83.0.4103.116)\000ABuild info: version: '3.14.0'\002C revision: 'aacccce0'\002C time: '2018-08-02T20:19:58.91Z'\000ASystem info: host: 'ABDUL-HAMID-MJK'\002C ip: '192.168.0.15'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '13.0.1'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 83.0.4103.116\002C chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b...\002C userDataDir: C:\005CUsers\005CABDULH~1\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:64700}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:virtualAuthenticators: true}\000ASession ID: f6c04698f5d34d424154c0f29a8d05c8\000A
+
+
+# Created at 2020-07-09T07:49:27.015
+Unexpected IOException: 9,1,Scenario: DemoAuto login scenario,Then user quits the browser session(Scenario: DemoAuto login scenario),null,null,null
+
+
+# Created at 2020-07-09T07:49:27.016
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.017
+Unexpected IOException with stream:   Scenario: DemoAuto login scenario               # login.feature:3
+
+
+# Created at 2020-07-09T07:49:27.017
+Unexpected IOException with stream:     Given user is on login page                   # LoginStepDef.userOnLoginPage()
+
+
+# Created at 2020-07-09T07:49:27.018
+Unexpected IOException with stream:     When user verifies the title of the page      # LoginStepDef.userValidatesTitle()
+
+
+# Created at 2020-07-09T07:49:27.018
+Unexpected IOException with stream:     Then user enters username and password        # LoginStepDef.userEntersCreds()
+
+
+# Created at 2020-07-09T07:49:27.018
+Unexpected IOException with stream:     Then user clicks on login button              # LoginStepDef.userClicksLoginButton()
+
+
+# Created at 2020-07-09T07:49:27.020
+Unexpected IOException with stream:     Then user verifies the title of the home page # LoginStepDef.userValidatesHomePageTitle()
+
+
+# Created at 2020-07-09T07:49:27.021
+Unexpected IOException with stream:       org.openqa.selenium.WebDriverException: chrome not reachable
+        (Session info: chrome=83.0.4103.116)
+      Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+      System info: host: 'ABDUL-HAMID-MJK', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+      Driver info: org.openqa.selenium.chrome.ChromeDriver
+      Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ABDULH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+      Session ID: f6c04698f5d34d424154c0f29a8d05c8
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+      	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+      	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+      	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+      	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+      	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+      	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+      	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+      	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+      	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
+      	at stepDefinition.LoginStepDef.userValidatesHomePageTitle(LoginStepDef.java:38)
+      	at ?.Then user verifies the title of the home page(login.feature:9)
+
+
+
+# Created at 2020-07-09T07:49:27.022
+Unexpected IOException with stream:     Then user quits the browser session           # LoginStepDef.userQuitsBrowserSession()
+
+
+# Created at 2020-07-09T07:49:27.029
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.029
+Unexpected IOException with stream: Failed scenarios:
+
+
+# Created at 2020-07-09T07:49:27.030
+Unexpected IOException with stream: login.feature:3 
+
+# Created at 2020-07-09T07:49:27.030
+Unexpected IOException with stream: # Scenario: DemoAuto login scenario
+
+
+# Created at 2020-07-09T07:49:27.031
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.031
+Unexpected IOException with stream: 1
+
+# Created at 2020-07-09T07:49:27.031
+Unexpected IOException with stream:  Scenarios (
+
+# Created at 2020-07-09T07:49:27.032
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-09T07:49:27.032
+Unexpected IOException with stream: )
+
+
+# Created at 2020-07-09T07:49:27.032
+Unexpected IOException with stream: 6
+
+# Created at 2020-07-09T07:49:27.033
+Unexpected IOException with stream:  Steps (
+
+# Created at 2020-07-09T07:49:27.033
+Unexpected IOException with stream: 1 failed
+
+# Created at 2020-07-09T07:49:27.033
+Unexpected IOException with stream: , 
+
+# Created at 2020-07-09T07:49:27.034
+Unexpected IOException with stream: 1 skipped
+
+# Created at 2020-07-09T07:49:27.034
+Unexpected IOException with stream: , 
+
+# Created at 2020-07-09T07:49:27.035
+Unexpected IOException with stream: 4 passed
+
+# Created at 2020-07-09T07:49:27.035
+Unexpected IOException with stream: )
+
+
+# Created at 2020-07-09T07:49:27.035
+Unexpected IOException with stream: 0m
+
+# Created at 2020-07-09T07:49:27.043
+Unexpected IOException with stream: 18.597s
+
+
+# Created at 2020-07-09T07:49:27.044
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.045
+Unexpected IOException with stream: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=83.0.4103.116)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'ABDUL-HAMID-MJK', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\ABDULH~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:64700}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: f6c04698f5d34d424154c0f29a8d05c8
+
+# Created at 2020-07-09T07:49:27.045
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.046
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created at 2020-07-09T07:49:27.046
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.047
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created at 2020-07-09T07:49:27.047
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.047
+Unexpected IOException with stream: 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created at 2020-07-09T07:49:27.048
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.048
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+
+# Created at 2020-07-09T07:49:27.048
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.049
+Unexpected IOException with stream: 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+
+# Created at 2020-07-09T07:49:27.049
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.050
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+
+# Created at 2020-07-09T07:49:27.050
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.050
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+
+# Created at 2020-07-09T07:49:27.051
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.051
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+
+# Created at 2020-07-09T07:49:27.051
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.052
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+
+# Created at 2020-07-09T07:49:27.052
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.053
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+
+# Created at 2020-07-09T07:49:27.053
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.053
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+
+# Created at 2020-07-09T07:49:27.054
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.054
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:605)
+
+# Created at 2020-07-09T07:49:27.054
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.055
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:280)
+
+# Created at 2020-07-09T07:49:27.055
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.055
+Unexpected IOException with stream: 	at stepDefinition.LoginStepDef.userValidatesHomePageTitle(LoginStepDef.java:38)
+
+# Created at 2020-07-09T07:49:27.056
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.056
+Unexpected IOException with stream: 	at ?.Then user verifies the title of the home page(login.feature:9)
+
+# Created at 2020-07-09T07:49:27.056
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.057
+Unexpected IOException with stream: 
+
+
+# Created at 2020-07-09T07:49:27.058
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,runnerPackage.loginMyRunnerClassTest,null,null,null
+
+

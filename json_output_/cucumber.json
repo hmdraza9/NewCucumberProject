@@ -3,16 +3,38 @@
     "line": 1,
     "elements": [
       {
-        "line": 12,
-        "name": "User registration at DemoAuto",
+        "before": [
+          {
+            "result": {
+              "duration": 237900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.beforeFunction()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "DemoAuto login scenario",
         "description": "",
-        "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;2",
+        "id": "demo-auto-login-feature;demoauto-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 128700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.afterFunction()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5324047700,
+              "duration": 6133450300,
               "status": "passed"
             },
             "line": 5,
@@ -24,70 +46,102 @@
           },
           {
             "result": {
-              "duration": 968205200,
+              "duration": 20394300,
               "status": "passed"
             },
             "line": 6,
-            "name": "user clicks on Register button",
+            "name": "user verifies the title of the page",
             "match": {
-              "location": "UserRegistration.clickOnRegisterDemoAut()"
+              "location": "LoginStepDef.userValidatesTitle()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3304753500,
+              "duration": 202657400,
               "status": "passed"
             },
             "line": 7,
-            "name": "user fills form including \"test1@test.com\" and \"Test1@123\"",
+            "name": "user enters username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "test1@test.com",
-                  "offset": 27
-                },
-                {
-                  "val": "Test1@123",
-                  "offset": 48
-                }
-              ],
-              "location": "UserRegistration.userFillRegForm(String,String)"
+              "location": "LoginStepDef.userEntersCreds()"
             },
-            "matchedColumns": [
-              0,
-              1
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 637474000,
+              "duration": 2682796300,
               "status": "passed"
             },
             "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDef.userClicksLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4771600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user verifies the title of the home page",
+            "match": {
+              "location": "LoginStepDef.userValidatesHomePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 681097100,
+              "status": "passed"
+            },
+            "line": 10,
             "name": "user quits the browser session",
             "match": {
               "location": "LoginStepDef.userQuitsBrowserSession()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ]
       },
       {
+        "before": [
+          {
+            "result": {
+              "duration": 114200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.beforeFunction()"
+            }
+          }
+        ],
         "line": 13,
-        "name": "User registration at DemoAuto",
+        "name": "DemoAuto login scenario",
         "description": "",
-        "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;3",
+        "id": "demo-auto-login-feature;demoauto-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 95400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.afterFunction()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5162937100,
+              "duration": 5237304400,
               "status": "passed"
             },
-            "line": 5,
+            "line": 15,
             "name": "user is on login page",
             "match": {
               "location": "LoginStepDef.userOnLoginPage()"
@@ -96,70 +150,102 @@
           },
           {
             "result": {
-              "duration": 1057306200,
+              "duration": 5518000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user clicks on Register button",
+            "line": 16,
+            "name": "user verifies the title of the page",
             "match": {
-              "location": "UserRegistration.clickOnRegisterDemoAut()"
+              "location": "LoginStepDef.userValidatesTitle()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3158943200,
+              "duration": 190289000,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user fills form including \"test2@test.com\" and \"Test2@123\"",
+            "line": 17,
+            "name": "user enters username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "test2@test.com",
-                  "offset": 27
-                },
-                {
-                  "val": "Test2@123",
-                  "offset": 48
-                }
-              ],
-              "location": "UserRegistration.userFillRegForm(String,String)"
+              "location": "LoginStepDef.userEntersCreds()"
             },
-            "matchedColumns": [
-              0,
-              1
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 627820200,
+              "duration": 2733242300,
               "status": "passed"
             },
-            "line": 8,
+            "line": 18,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDef.userClicksLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4075300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user verifies the title of the home page",
+            "match": {
+              "location": "LoginStepDef.userValidatesHomePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 627687600,
+              "status": "passed"
+            },
+            "line": 20,
             "name": "user quits the browser session",
             "match": {
               "location": "LoginStepDef.userQuitsBrowserSession()"
             },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ]
       },
       {
-        "line": 14,
-        "name": "User registration at DemoAuto",
+        "before": [
+          {
+            "result": {
+              "duration": 117200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.beforeFunction()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "DemoAuto login scenario",
         "description": "",
-        "id": "new-users-register-for-flight-ticket-booking;user-registration-at-demoauto;;4",
+        "id": "demo-auto-login-feature;demoauto-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 231500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.afterFunction()"
+            }
+          }
+        ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 5165554600,
+              "duration": 5004640400,
               "status": "passed"
             },
-            "line": 5,
+            "line": 25,
             "name": "user is on login page",
             "match": {
               "location": "LoginStepDef.userOnLoginPage()"
@@ -168,61 +254,383 @@
           },
           {
             "result": {
-              "duration": 929491300,
+              "duration": 8496300,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user clicks on Register button",
+            "line": 26,
+            "name": "user verifies the title of the page",
             "match": {
-              "location": "UserRegistration.clickOnRegisterDemoAut()"
+              "location": "LoginStepDef.userValidatesTitle()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 3131838400,
+              "duration": 223352500,
               "status": "passed"
             },
-            "line": 7,
-            "name": "user fills form including \"test3@test.com\" and \"Test3@123\"",
+            "line": 27,
+            "name": "user enters username and password",
             "match": {
-              "arguments": [
-                {
-                  "val": "test3@test.com",
-                  "offset": 27
-                },
-                {
-                  "val": "Test3@123",
-                  "offset": 48
-                }
-              ],
-              "location": "UserRegistration.userFillRegForm(String,String)"
+              "location": "LoginStepDef.userEntersCreds()"
             },
-            "matchedColumns": [
-              0,
-              1
-            ],
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 691501300,
+              "duration": 2705344100,
               "status": "passed"
             },
-            "line": 8,
+            "line": 28,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDef.userClicksLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4988900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user verifies the title of the home page",
+            "match": {
+              "location": "LoginStepDef.userValidatesHomePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 623555500,
+              "status": "passed"
+            },
+            "line": 30,
             "name": "user quits the browser session",
             "match": {
               "location": "LoginStepDef.userQuitsBrowserSession()"
             },
-            "keyword": "And "
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 246300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.beforeFunction()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "DemoAuto login scenario",
+        "description": "",
+        "id": "demo-auto-login-feature;demoauto-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 56600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.afterFunction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4982975400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDef.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6428100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "user verifies the title of the page",
+            "match": {
+              "location": "LoginStepDef.userValidatesTitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191043400,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDef.userEntersCreds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2703599700,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDef.userClicksLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6653300,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user verifies the title of the home page",
+            "match": {
+              "location": "LoginStepDef.userValidatesHomePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 636935100,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user quits the browser session",
+            "match": {
+              "location": "LoginStepDef.userQuitsBrowserSession()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 75300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.beforeFunction()"
+            }
+          }
+        ],
+        "line": 43,
+        "name": "DemoAuto login scenario",
+        "description": "",
+        "id": "demo-auto-login-feature;demoauto-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 116000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.afterFunction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4860332900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDef.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5008600,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user verifies the title of the page",
+            "match": {
+              "location": "LoginStepDef.userValidatesTitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 201186400,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDef.userEntersCreds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2710891700,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDef.userClicksLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3868600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user verifies the title of the home page",
+            "match": {
+              "location": "LoginStepDef.userValidatesHomePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 626010800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user quits the browser session",
+            "match": {
+              "location": "LoginStepDef.userQuitsBrowserSession()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 187800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.beforeFunction()"
+            }
+          }
+        ],
+        "line": 53,
+        "name": "DemoAuto login scenario",
+        "description": "",
+        "id": "demo-auto-login-feature;demoauto-login-scenario",
+        "after": [
+          {
+            "result": {
+              "duration": 74600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDef.afterFunction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5009957300,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user is on login page",
+            "match": {
+              "location": "LoginStepDef.userOnLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10353600,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "user verifies the title of the page",
+            "match": {
+              "location": "LoginStepDef.userValidatesTitle()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171479300,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user enters username and password",
+            "match": {
+              "location": "LoginStepDef.userEntersCreds()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2928191700,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "LoginStepDef.userClicksLoginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4188400,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "user verifies the title of the home page",
+            "match": {
+              "location": "LoginStepDef.userValidatesHomePageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 622375900,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user quits the browser session",
+            "match": {
+              "location": "LoginStepDef.userQuitsBrowserSession()"
+            },
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "New users register for flight ticket booking",
+    "name": "Demo Auto login feature",
     "description": "",
-    "id": "new-users-register-for-flight-ticket-booking",
+    "id": "demo-auto-login-feature",
     "keyword": "Feature",
-    "uri": "userRegistration.feature"
+    "uri": "login.feature"
   }
 ]

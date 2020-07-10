@@ -11,6 +11,7 @@ import cucumber.api.junit.Cucumber;
 		,glue= {"stepDefinition"},
 		format = {"pretty", "html:test-output","json:json_output_/cucumber.json"},
 		monochrome=true,
+//		strict=true,
 		dryRun=false
 		)
 

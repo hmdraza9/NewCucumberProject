@@ -4,13 +4,13 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 
 import basePackage.TestBase;
+import cucumber.api.java.en.But;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
 public class TicketBookStepDef extends TestBase {
 
 	String Url = "http://newtours.demoaut.com/";
-	String tktConfirmTitle = "Flight Confirmation: Mercury Tours";
 		
 	@When("^user logs in with credentials$")
 	public void userLogin() {
@@ -27,13 +27,17 @@ public class TicketBookStepDef extends TestBase {
 		driver.findElement(By.name("reserveFlights")).click();
 		driver.findElement(By.name("buyFlights")).click();
 	}
-
+	
+	@But("^here we are testing BUT annotation$")
+	public void butAnnotationTest() {
+		Assert.assertTrue(driver.getTitle().trim().contains(tktConfirmTitle));
+	}
 
 	@Then("^user get confirmation of ticket$")
 	public void tktConfirm() {
 		
 		Assert.assertTrue(driver.getTitle().trim().contains(tktConfirmTitle.trim()));
-	}//closeBrowser();
+	}
 	
 
 	@Then("^user quits the browser after ticket booking$")

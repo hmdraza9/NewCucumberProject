@@ -12,7 +12,8 @@ public class TestBase {
 	public static ChromeOptions co;
 	public static String tktBookUrl = "http://newtours.demoaut.com/";
 	public static String tktBookTitle = "Welcome: Mercury Tours";
-	public static String tktBookTitleHome = "Find a Flight: Mercury Tours: ";
+	public static String tktBookTitleHome = "Find a Flight: Mercury Tours";
+	public static String tktConfirmTitle = "Flight Confirmation: Mercury Tours";
 	
 
 	
