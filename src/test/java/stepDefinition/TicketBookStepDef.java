@@ -14,6 +14,7 @@ public class TicketBookStepDef extends TestBase {
 		
 	@When("^user logs in with credentials$")
 	public void userLogin() {
+		System.out.println("I am in TicketBookStepDef class");
 		driver.findElement(By.name("userName")).sendKeys("hmdraza9@gmail.com");
 		driver.findElement(By.name("password")).sendKeys("1q2w3e");
 		driver.findElement(By.name("login")).click();

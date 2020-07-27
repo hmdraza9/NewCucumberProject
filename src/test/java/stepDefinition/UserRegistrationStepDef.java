@@ -7,12 +7,13 @@ import basePackage.TestBase;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 
-public class UserRegistration extends TestBase{
+public class UserRegistrationStepDef extends TestBase{
 
 	
 	public static String registrationSuccessTest="";
 	@When("^user clicks on Register button$")
 	public void clickOnRegisterDemoAut() {
+		System.out.println("I am in UserRegistrationStepDef class");
 		driver.findElement(By.xpath("//table/tbody/tr[2]/td/table/tbody/tr/td[@class='mouseOut']/a[text()='REGISTER']")).click();
 	}
 	
