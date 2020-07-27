@@ -7,6 +7,8 @@ import basePackage.TestBase;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 
 
 public class LoginStepDef extends TestBase {
@@ -36,36 +38,41 @@ public class LoginStepDef extends TestBase {
 		openTktBookUrl();//User is on background page
 	}
 
-	@Given("^user verifies the title of the page$")
+	@When("^user verifies the title of the page$")
 	public void userValidatesTitle() {
 		System.out.println("userValidatesTitle");
 		Assert.assertTrue(driver.getTitle().trim().contains(tktBookTitle));
 	}	
 
-	@Given("^user enters username and password$")
+	@Then("^user enters username and password$")
 	public void userEntersCreds() {
 		System.out.println("userEntersCreds");
 		driver.findElement(By.name("userName")).sendKeys("hmdraza9@gmail.com");
-//		driver.findElement(By.name("password")).sendKeys("1q2w3e");
+		driver.findElement(By.name("password")).sendKeys("1q2w3e");
 	}
 
-	@Given("^user clicks on login button$")
+	@Then("^user clicks on login button$")
 	public void userClicksLoginButton() {
 		System.out.println("userClicksLoginButton");
 		driver.findElement(By.name("login")).click();
 	}
 
 
-	@Given("^user verifies the title of the home page$")
+	@Then("^user verifies the title of the home page$")
 	public void userValidatesHomePageTitle() {
 		System.out.println("userValidatesHomePageTitle");
 		Assert.assertTrue(driver.getTitle().trim().contains(tktBookTitleHome.trim()));
 	}	
 
-	@Given("^user quits the browser session$")
+	@Then("^user quits the browser session$")
 	public void userQuitsBrowserSession() {
 		System.out.println("userQuitsBrowserSession");
-		closeBrowser();
+		closeBrowser();//user print following string
+	}
+	
+	@Then("^user print following \"([^\"]*)\"$")
+	public void userPrintSomeString(String str) {
+		System.out.println("str: "+str);
 	}
 	
 }
