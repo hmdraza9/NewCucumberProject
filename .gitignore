@@ -1,0 +1,8 @@
+
+/.idea
+.DS_Store
+/target
+/target/
+/target/classes
+/json_output_
+/target

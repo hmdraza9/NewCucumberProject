@@ -17,7 +17,7 @@ public class LoginStepDef extends TestBase {
 	@Before
 	public void beforeFunction() {
 		System.out.println("I am in @Before");
-		Assert.assertTrue(driver==null);
+        Assert.assertNull(driver);
 	}
 
 	@After
